@@ -1,6 +1,6 @@
 FROM centos/nginx-112-centos7
 
-USER 1
+USER root
 
 # Install PHP
 RUN yum install -y centos-release-scl && \
