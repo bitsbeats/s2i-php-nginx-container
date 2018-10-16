@@ -9,4 +9,6 @@ RUN yum install -y centos-release-scl && \
     rpm -V $INSTALL_PKGS && \
     yum clean all -y
 
+ENV SCL_ENABLED=rh-php71
+
 USER 1001
